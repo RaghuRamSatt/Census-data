@@ -9,7 +9,7 @@ This project develops a machine learning pipeline for predicting high-income ind
 - Identified high-value segment representing 7.1% of population with 57.4% high-income rate
 - Robust cross-validation with low variance (σ = 0.0032) confirming generalizability
 
-> **Complete Project Download:** For full reproducibility including the raw dataset files (census-bureau.data and census-bureau.columns), download the `Census data.zip` file from this repository. GitHub file size limitations prevent these large data files from being uploaded directly to the repository.
+> **Complete Project Download:** For full reproducibility including the raw dataset files (census-bureau.data and census-bureau.columns), download the `Census data.zip` file from this repository.
 
 ---
 
@@ -44,8 +44,8 @@ pip install -r requirements.txt
 ```
 .
 ├── Census data.zip             # Complete project archive (includes all files below + data files)
-│   ├── census-bureau.data      # Raw dataset (199,523 observations, 43 features) [IN ZIP ONLY]
-│   └── census-bureau.columns   # Column metadata and descriptions [IN ZIP ONLY]
+├── census-bureau.data      # Raw dataset (199,523 observations, 43 features) [IN ZIP ONLY]
+└── census-bureau.columns   # Column metadata and descriptions [IN ZIP ONLY]
 │
 ├── Census_data.ipynb           # Main analysis notebook (ALL code and results)
 ├── report.pdf                 # Project report
